@@ -53,9 +53,19 @@
     border: 2px solid #8773EF;
     padding: 13px 40px;
     border-radius: 8px;
+    background: transparent;
     color: #000;
     font-size: 18px;
     font-weight: 600;
+    transition: all linear 0.3s;
+}
+
+.btn_2:hover{
+
+    border: 2px solid transparent;
+    background: #8773EF;
+    color: #fff;
+    font-weight: normal;
 }
 
 .shape_1{
