@@ -43,3 +43,22 @@
     font-weight: 600;
 }
 
+.menu li:nth-child(2) {
+
+    display: flex;
+    align-items: center;
+}
+
+.about_icon{
+
+    margin-left: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+
+ .menu li:hover .about_icon{
+
+    transform: rotate(180deg);
+}
+
