@@ -1,0 +1,61 @@
+#business{
+
+    background: #FCF8F8;
+    padding: 120px 0;
+    position: relative;
+}
+
+.business_heading{
+
+    width: 732px;
+    font-size: 48px;
+}
+
+.business_main{
+
+    display: flex;
+    align-items: center;
+    column-gap: 43px;
+    margin-top: 80px;
+}
+
+.card_head{
+
+    margin-top: 15px;
+}
+
+.card_paragraph{
+
+    margin-top: 12px;
+    text-align: justify;
+    width: 347px;
+    font-size: 18px;
+}
+
+.business_shape_1{
+
+    position: absolute;
+    left: 20px;
+    bottom: 220px;
+}
+
+.business_shape_2{
+
+    position: absolute;
+    left: 40px;
+    top: 420px;
+}
+
+.business_shape_3{
+
+    position: absolute;
+    right: 80px;
+    bottom: 80px;
+}
+
+.business_shape_4{
+
+    position: absolute;
+    top: 170px;
+    right: 520px;
+}
