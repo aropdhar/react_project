@@ -43,7 +43,7 @@ const Footersec = () => {
             </div>
 
             <div className="copyright_main">
-                <Paragraph text="@20201 Innovate.All rights reserved." textclass="copyright_text"/>
+                <Paragraph text="@2024 Innovate.All rights reserved." textclass="copyright_text"/>
 
                 <div className="copy_content">
                     <Paragraph text="Privacy policy" textclass="copyright_text" />
