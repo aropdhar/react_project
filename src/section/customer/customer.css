@@ -57,6 +57,7 @@
 .customer_story span{
 
     font-size: 40px;
+    cursor: pointer;
 
 }
 
@@ -86,6 +87,7 @@
 .customer_programs span{
 
     font-size: 30px;
+    cursor: pointer;
 }
 
 .customer_data{
@@ -99,6 +101,7 @@
 .customer_data span{
 
     font-size: 30px;
+    cursor: pointer;
 }
 
 .customer_shape_1{

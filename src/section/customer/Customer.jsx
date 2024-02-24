@@ -51,7 +51,6 @@ const Customer = () => {
               <div className="customer_shape_3">
                   <img src={customer_shape2} alt="Not Found" />
               </div>
-
           </div>
       </section>
     </>

@@ -2,17 +2,10 @@ import React from 'react'
 import './navbar.css'
 import logo from "../../assets/images/Logo.png"
 import { FaChevronUp } from "react-icons/fa";
-import { useState } from 'react';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
 
-const [btn , setbtn] = useState("Hi")
-
-let handlescroll = () =>{
-
-    console.log(btn);
-    
-}
   return (
     <>
      <nav id="navbar" >
@@ -22,15 +15,17 @@ let handlescroll = () =>{
                 <img src={logo} alt="Not Found" />
             </div>
             <ul className="menu">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a><FaChevronUp className='about_icon'/></li>
-              <li><a href="#">Service</a></li>
-              <li><a href="#">portfolio</a></li>
-              <li><a href="#">Blog</a></li>
+
+                <li><NavLink to='/'>Home</NavLink></li>
+                <li><NavLink to='/business'>About</NavLink><FaChevronUp className='about_icon'/></li>
+                <li><NavLink to='/customer'>Service</NavLink></li>
+                <li><Link to='/#'>portfolio</Link></li>
+                <li><Link to='/#'>Blog</Link></li>
+
             </ul>
 
             <div className="navbar_btn">
-              <a href="#" className='Common_btn' onClick={handlescroll}>Contact Us</a>
+              <a href="#" className='Common_btn'>Contact Us</a>
             </div>
           </div>
       </div>

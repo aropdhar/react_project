@@ -41,17 +41,30 @@
     font-size: 18px;
     color: #000;
     font-weight: 600;
+    padding: 10px 20px;
 }
+
+.menu li a.active{
+
+    background: #5a4601;
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 10px;
+    
+}
+
+
 
 .menu li:nth-child(2) {
 
     display: flex;
     align-items: center;
+    margin-top: -10px;
 }
 
 .about_icon{
 
-    margin-left: 5px;
+    margin-left: 2px;
     font-size: 22px;
     cursor: pointer;
     transition: all linear 0.3s;
